@@ -1,0 +1,22 @@
+{
+  "name": "over-c-er-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/readytowin2298/over-c-er-backend.git"
+  },
+  "author": "David Ames Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/readytowin2298/over-c-er-backend/issues"
+  },
+  "homepage": "https://github.com/readytowin2298/over-c-er-backend#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
