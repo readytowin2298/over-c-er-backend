@@ -1,3 +1,4 @@
+
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email TEXT NOT NULL,
@@ -22,7 +23,7 @@ CREATE TABLE tickets (
     issue INTEGER REFERENCES issues ON DELETE CASCADE
 );
 
-CREATE TABLE contact (
+CREATE TABLE contacts (
     id SERIAL PRIMARY KEY,
     email TEXT NOT NULL,
     issue INTEGER REFERENCES issues ON DELETE CASCADE
